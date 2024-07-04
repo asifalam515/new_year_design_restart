@@ -113,3 +113,54 @@ h1 {
   width: 1320px;
   height: 986px;
 }
+
+.cards-section {
+  margin-right: 108px;
+  margin-left: 108px;
+  margin-top: 100px;
+  width: 1320px;
+  height: 1163px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card-img {
+  width: 423px;
+  height: 450px;
+  display: block;
+  object-fit: cover;
+}
+.card-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.newsletter-section {
+  width: 1320px;
+  height: 616px;
+  background-color: #fff2f2;
+}
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#subscribe-btn {
+  background-color: #ef2f1e;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+#input {
+  padding: 15px 30px;
+}
