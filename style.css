@@ -1,0 +1,13 @@
+* {
+  background-color: FFFFFF;
+}
+.header {
+  margin-top: 40px;
+  margin-bottom: 120px;
+  margin-right: 108px;
+  margin-left: 108px;
+}
+.header_img {
+  width: 1320px;
+  height: 600px;
+}
