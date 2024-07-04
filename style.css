@@ -11,3 +11,105 @@
   width: 1320px;
   height: 600px;
 }
+
+.offer_parent {
+  display: flex;
+  justify-content: center; /* Horizontally centers the child */
+  align-items: center; /* Vertically centers the child */
+  height: 100vh;
+  margin-bottom: 120px;
+}
+.offer_section {
+  width: 802px;
+  height: 806px;
+  display: flex;
+  justify-content: center; /* Horizontally centers the child */
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.text h1,
+h4 {
+  color: #ff0000;
+}
+.offer_img {
+  width: 802px;
+  height: 500px;
+}
+
+.midNight {
+  background-image: url("./resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  margin-right: 108px;
+  margin-left: 108px;
+  display: flex;
+  margin-bottom: 110px;
+}
+.midNight_text {
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 120px;
+}
+.midNight_img {
+  width: 40%;
+}
+.midNight_text p,
+h1 {
+  /* color: #ffffff; */
+  font-weight: bold;
+}
+.join_btn {
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.date_parent {
+  display: flex;
+  justify-content: center; /* Horizontally centers the child */
+  align-items: center;
+  background-color: #ffeaea;
+  margin-left: 100px;
+  margin-top: 120px;
+  width: 1320px;
+  height: 482px;
+}
+.date_text {
+  text-align: center;
+
+  color: black;
+  margin-top: 110px;
+
+  /* display: flex; */
+}
+.date-btn {
+  background-color: #ff0000;
+  color: white;
+  padding: 15px;
+}
+.coming-soon {
+  margin-right: 108px;
+  margin-left: 108px;
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+/* item {
+  width: 300px;
+  height: 100px;
+} */
+.coming-img {
+}
+.coming-text-2 {
+}
+
+.holiday {
+  width: 1320px;
+  height: 986px;
+}
